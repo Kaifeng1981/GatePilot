@@ -1,4 +1,3 @@
-<img width="290" height="472" alt="main_CN" src="https://github.com/user-attachments/assets/763f2d5e-2281-473c-8f18-0710f87e1f73" /><img width="290" height="472" alt="main_EN" src="https://github.com/user-attachments/assets/2702aea8-45fe-47ee-8e55-c52e33140610" />
 # GatePilot 🚀
 
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)]()
@@ -9,8 +8,9 @@
 
 ---
 <img width="290" height="472" alt="main_EN" src="https://github.com/user-attachments/assets/bcc38b09-3ddb-4349-b6b0-a419649cdaa8" />
-<img width="260" height="402" alt="Setting" src="https://github.com/user-attachments/assets/4f6f7565-c51b-40e7-9b31-bc8eda9b0f88" />
 <img width="290" height="472" alt="main_CN" src="https://github.com/user-attachments/assets/05c5d3cc-c468-482d-801e-6346a348f303" />
+<img width="260" height="402" alt="Setting" src="https://github.com/user-attachments/assets/4f6f7565-c51b-40e7-9b31-bc8eda9b0f88" />
+
 
 
 ## 🇬🇧 English
