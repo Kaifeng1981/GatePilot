@@ -34,7 +34,7 @@ It was originally developed to solve a common pain point for Homelab and NAS ent
 2. Run the executable (Administrator privileges are required to modify network adapters).
 3. Set up your custom rules in the GUI and click "Start Auto Engine".
 
-*Note: You can also run it directly from the source code by installing the dependencies (PyQt5, psutil) and running `gatepilot.py`.*
+*Note: For developers who want to run from source code or build it themselves, please refer to the Developer Guide below.*
 
 ---
 
@@ -59,4 +59,28 @@ It was originally developed to solve a common pain point for Homelab and NAS ent
 2. 双击运行程序（修改网卡配置需要 UAC 管理员权限）。
 3. 在界面中配置您的网络规则，并点击“开启自动规则调度引擎”即可。
 
-*注：如果您希望直接通过源码运行，请确保安装了相关依赖（PyQt5, psutil），并运行 `gatepilot.py`。*
+*注：如果您希望直接运行源码或自行打包，请参考下方的开发者指南。*
+
+---
+
+## 🛠 For Developers / 开发者指南
+
+If you want to run from source or build the executable yourself / 如果您希望直接运行源码或自行打包：
+
+### Option 1: One-Click Build (Recommended) / 选项一：一键自检打包（推荐）
+We provide a smart batch script for Windows. Just double-click `build.bat` in the project directory. 
+It will automatically:
+1. Check and install required missing dependencies (`PyQt5`, `psutil`, `pyinstaller`).
+2. Clean up historical build caches.
+3. Package the app and icons cleanly into a single `.exe` file in the `dist/` folder.
+
+我们提供了一个智能批处理脚本。直接双击项目目录下的 `build.bat` 文件，它将自动：
+1. 检查并补齐缺失的依赖库 (`PyQt5`, `psutil`, `pyinstaller`)。
+2. 自动清理历史打包缓存。
+3. 将程序及配套资源图标纯净打包为一个独立的 `.exe` 文件（生成在 `dist/` 目录下）。
+
+### Option 2: Run from Source / 选项二：直接运行源码
+Install requirements and run via Python / 手动安装依赖并运行：
+```bash
+pip install -r requirements.txt
+python gatepilot.py
