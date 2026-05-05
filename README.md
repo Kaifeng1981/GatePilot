@@ -83,4 +83,4 @@ It will automatically:
 Install requirements and run via Python / 手动安装依赖并运行：
 ```bash
 pip install -r requirements.txt
-python gatepilot.py
+python Gatepilot.py
